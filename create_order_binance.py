@@ -83,7 +83,6 @@ def create_order(symbol, api_key, secret_key, quantity_usd, price):
     r = requests.post(url, headers=headers)
     if r.status_code != 200:
         raise Exception(json.loads(r.content))
-    return print(json.loads(r.content))
 
 
 # Функция для создания ордеров на бирже Binance

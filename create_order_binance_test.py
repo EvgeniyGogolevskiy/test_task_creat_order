@@ -41,6 +41,3 @@ def test_create_orders():
            "side": "SELL",
            "priceMin": 1700.0,
            "priceMax": 1900.0}, test_data)
-
-
-test_validate_data()
